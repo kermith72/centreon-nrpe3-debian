@@ -1,0 +1,4 @@
+3eea90a6a7e1f14db710fed4e7234e6d  lib/systemd/system/centreon-nrpe3.service
+2d4b0511a9c1ef82e1933770789fa9ee  etc/nrpe/centreon-nrpe3.cfg
+c0b1ec571449ed4f7fac9edf093d476c  usr/sbin/centreon-nrpe3
+007e4ad2ec825c4b8352f905537d8181  usr/share/doc/centreon-nrpe3-daemon-3.2.1/LEGAL

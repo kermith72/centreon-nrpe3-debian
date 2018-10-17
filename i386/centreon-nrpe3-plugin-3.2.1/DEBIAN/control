@@ -1,0 +1,9 @@
+Package: centreon-nrpe3-plugin
+Version: 3.2.1-1
+Section: net
+Priority: extra
+Architecture: i386
+Depends: libc6 (>= 2.14), openssl
+Installed-Size: 160
+Maintainer: Eric Coquard <eric.coquard@gmail.com>
+Description: Plug-in for Nagios monitoring system.
