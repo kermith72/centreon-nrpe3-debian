@@ -1,0 +1,11 @@
+Compilation instructions
+
+wget --no-check-certificate -O nrpe.tar.gz https://github.com/NagiosEnterprises/nrpe/archive/nrpe-3.2.1.tar.gz
+tar xzf nrpe.tar.gz
+cd nrpe-nrpe-3.2.1/
+
+apt-get install -y autoconf gcc libc6 libmcrypt-dev make libssl-dev
+groupadd -g 6001 centreon-engine
+useradd -u 6001 -g centreon-engine -m -r -d /var/lib/centreon-engine -c "Centreon-engine Admin" centreon-engine
+./configure --enable-command-args --with-nrpe-user=centreon-engine --with-nrpe-group=centreon-engine
+make nrpe
