@@ -1,4 +1,5 @@
-3e318be5b07fe04a128467cbc746317a  usr/sbin/centreon-nrpe3
-007e4ad2ec825c4b8352f905537d8181  usr/share/doc/centreon-nrpe3-daemon-3.2.1/LEGAL
-3eea90a6a7e1f14db710fed4e7234e6d  lib/systemd/system/centreon-nrpe3.service
 2d4b0511a9c1ef82e1933770789fa9ee  etc/nrpe/centreon-nrpe3.cfg
+3eea90a6a7e1f14db710fed4e7234e6d  lib/systemd/system/centreon-nrpe3.service
+9694e3a1eb3f32014d7a64826fd435bd  usr/sbin/centreon-nrpe3
+007e4ad2ec825c4b8352f905537d8181  usr/share/doc/centreon-nrpe3-daemon-3.2.1/LEGAL
+75c9f1b13698a8074095f127796aa11e  usr/share/doc/centreon-nrpe3-daemon-3.2.1/README

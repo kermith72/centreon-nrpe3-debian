@@ -1,11 +1,11 @@
 Package: centreon-nrpe3-daemon
-Version: 3.2.1-1
+Version: 3.2.1-2
 Section: net
 Priority: extra
 Architecture: armhf
-Depends: libc6 (>= 2.14), openssl
-Installed-Size: 284
-Maintainer: Eric Coquard <eric.coquard@gmail.com>
+Depends: libc6 (>= 2.14), openssl (>=1.1.0), libmcrypt4(>=2.5.8)
+Installed-Size: 268
+Maintainer: Eric Coquard <eric.coquard@sugarbug.fr>
 Description: The nagios-nrpe packages contains the Nagios Remote Plug-ins Executor.
   daemon which can execute predefined commands on the remote host.
 
